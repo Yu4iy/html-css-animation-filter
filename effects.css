@@ -1,0 +1,187 @@
+.ex-1-square {
+	transition: linear 1s;
+}
+.ex-1-square:hover {
+	background-color: red;
+}
+.ex-2-square {
+	transition: linear 1s;
+
+}
+.ex-2-square:active {
+	width: 100%;
+}
+
+.ex-3-square {
+	transition: linear 0.2s;
+
+}
+.ex-3-square:hover {
+	border-radius: 50%;
+}
+
+.ex-4-square {
+	transition: linear 0.5s;
+
+}
+.ex-4-square:hover {
+	opacity: 0;
+}
+
+.ex-5-square {
+	transition: linear 0.5s;
+
+}
+.ex-5-square:hover {
+	transform: scale(2.3);
+}
+.ex-5-square:active {
+	transform: scale(0.5);
+}
+
+.ex-6-img:hover {
+	filter: grayscale(1);
+}
+
+.ex-7-img {
+	transition: linear 1s;
+}
+.ex-7-img:hover {
+	filter: grayscale(0.5) sepia(0.5);
+}
+
+.ex-8-img {
+	transition: linear 1s;
+}
+.ex-8-img:hover {
+	filter: grayscale(0.5) sepia(0.5);
+	border-radius: 5%;
+}
+
+.ex-9-img {
+	transition: linear 1s;
+}
+.ex-9-img:hover {
+	filter: grayscale(0.5) sepia(0.5);
+	border-radius: 5%;
+	transform: scale(1.5);
+}
+
+.ex-10-icon {
+	animation: well 1s linear infinite ;
+}
+@keyframes well {
+	0% {
+		transform: rotate(1turn) ;
+	}
+
+}
+
+
+
+.ex-11-icon:hover {
+	animation: well2 1s  alternate linear;
+}
+@keyframes well2 {
+	0% {
+		transform: rotate(0) ;
+	}
+	90% {
+		transform: rotate(300deg) ;
+	}
+	0% {
+		transform: rotate(0) ;
+		
+	}
+}
+
+.ex-12-button:hover .ex-12-top-white{
+	animation: well3 2s linear infinite;
+}
+@keyframes well3 {
+	0% {
+		left: 10% ;
+	}
+	50% {
+		left: calc(100% - 60px) ;
+	}
+	0% {
+		left: 10%;		
+	}
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+	animation: well4 2s linear infinite;
+}
+@keyframes well4 {
+	0% {
+		right:  20% ;
+	}
+	50% {
+		right: calc(100% - 60px) ;
+	}
+	0% {
+		right: 20%;		
+	}
+}
+
+.ex-13-button:hover .ex-13-top-white{
+	animation: well5 3s linear infinite;
+}
+/* @keyframes well5 {          Ex.13 <----FIX
+	0% {
+		left: 10% ;
+		top: -10%;
+	}
+	20% {
+		left: calc(100% - 30px) ;
+		top: -10%;
+	}
+	30% {
+		left: calc(100% - 30px) ;
+		top: 100%;
+	}
+	50% {
+		left: 0 ;
+		top: 100%
+	}
+	75% {
+		left: -10px ;
+		top: -15px;
+	}
+	100% {
+		left: 10%;
+		top: -10px;
+	} 
+}*/
+/* .ex-13-button:hover .ex-13-bottom-white{
+	animation: well6 3s linear infinite ;
+}
+@keyframes well6 {
+	0% {
+		right: 20% ;
+		bottom: -10%;
+	}
+	20% {
+		right: calc(100% - 30px) ;
+		bottom: -10%;
+	}
+	40% {
+		right: calc(100% - 30px) ;
+		bottom: 100%;
+	}
+	60% {
+		right: 0 ;
+		bottom: 100%;
+	}
+	80% {
+		right: -100%;
+		bottom: 20%;
+	}
+	100% {
+	}
+} */
+
+
+
+
