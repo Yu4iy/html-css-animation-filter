@@ -128,7 +128,7 @@
 .ex-13-button:hover .ex-13-top-white{
 	animation: well5 3s linear infinite;
 }
-/* @keyframes well5 {          Ex.13 <----FIX
+@keyframes well5 {          
 	0% {
 		left: 10% ;
 		top: -10%;
@@ -137,15 +137,15 @@
 		left: calc(100% - 30px) ;
 		top: -10%;
 	}
-	30% {
+	40% {
 		left: calc(100% - 30px) ;
 		top: 100%;
 	}
-	50% {
+	60% {
 		left: 0 ;
 		top: 100%
 	}
-	75% {
+	80% {
 		left: -10px ;
 		top: -15px;
 	}
@@ -153,13 +153,14 @@
 		left: 10%;
 		top: -10px;
 	} 
-}*/
-/* .ex-13-button:hover .ex-13-bottom-white{
-	animation: well6 3s linear infinite ;
 }
-@keyframes well6 {
+
+.ex-13-button:hover .ex-13-bottom-white{
+	animation: well6 3s linear infinite;
+}
+@keyframes well6 {         
 	0% {
-		right: 20% ;
+		right: 10% ;
 		bottom: -10%;
 	}
 	20% {
@@ -172,16 +173,16 @@
 	}
 	60% {
 		right: 0 ;
-		bottom: 100%;
+		bottom: 100%
 	}
 	80% {
-		right: -100%;
-		bottom: 20%;
+		right: -10px ;
+		bottom: -15px;
 	}
 	100% {
-	}
-} */
-
-
+		right: 10%;
+		bottom: -10px;
+	} 
+}
 
 
